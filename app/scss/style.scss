@@ -212,27 +212,31 @@
 
 
     &__inner-buttons {
+        line-height: 0;
         display: flex;
         max-width: 410px;
         justify-content: space-between;
         margin: 0 auto;
 
         a {
-            align-content: center;
-
             border: none;
-            height: 55px;
-            width: 190px;
-            font-size: 16px;
-            line-height: 72px;
             border-radius: 25px;
-            color: black;
             box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
-
+            padding: 21px 35px;
         }
 
-
-
+        &-text {
+            font-size: 16px;
+            text-align: center;
+            vertical-align: center;
+            color: black;
+        }
+    }
+    &__inner-search{
+        max-width: 1140px;
+        max-height: 135px;
+        display: flex;
+        justify-content: space-between;
     }
 
 
