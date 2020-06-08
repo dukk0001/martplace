@@ -108,23 +108,30 @@
                         </div>
                     </a>
                 </div>
-                <form class="marketplace__inner-form-search">
-                    <div class="marketplace__inner-search">
-                        <input type="text" placeholder="Search your products..." required>
 
-                        <div class="marketplace__inner-search-dropdown">
-                            <div class="marketplace__inner-dropbtn">All categories</div>
-                            <div class="marketplace__inner-search-content">
-                                <a href="#">Reference 1</a>
-                                <a href="#">Reference 2</a>
-                                <a href="#">Reference 3</a>
+
+
+                <form action="" class="search-form">
+                    <div class="search-form__inner">
+                        <div class="search-form__group">
+                            <div class="search-form__fields">
+                                <input type="text" class="search-form__input" placeholder="Your text here...">
+                                <select class="justselect">
+                                    <option value="1" selected>All categories</option>
+                                    <option value="2">Category 1</option>
+                                    <option value="3">Category 2</option>
+                                    <option value="4">Category 3</option>
+                                    <option value="5">Category 4</option>
+                                </select>
+
                             </div>
+                            <button class="search-form__btn" type="submit">
+                                Search
+                            </button>
                         </div>
-
                     </div>
-                    <button class="marketplace__inner-search-button" type="submit">Search Now</button>
-
                 </form>
+
             </div>
         </div>
     </div>
@@ -138,7 +145,8 @@
                         <img src="images/features/ux.png" alt="ux">
                         <div>Best UX Research</div>
                     </a>
-                    <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                    <p class="features-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                        scelerisque
                         the mattis, leo quam aliquet diam
                         congue is laoreet elit metus.</p>
 
@@ -148,7 +156,8 @@
                         <img src="images/features/response.png" alt="response">
                         <div>Fully Responsive</div>
                     </a>
-                    <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                    <p class="features-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                        scelerisque
                         the mattis, leo quam aliquet diam
                         congue is laoreet elit metus.</p>
 
@@ -159,7 +168,8 @@
                         <img src="images/features/buy.png" alt="buy">
                         <div>Best UX Research</div>
                     </a>
-                    <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                    <p class="features-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                        scelerisque
                         the mattis, leo quam aliquet diam
                         congue is laoreet elit metus.</p>
 
@@ -176,7 +186,13 @@
             <div class="slider__inner">
                 <div class="slider__inner-navigator">
                     <div class="slider__inner-text">Weekly Featured Products</div>
-                    <div class="slider__inner-arrows"></div>
+                    <div class="slider__inner-arrows">
+
+                        <div class=""></div>
+                        <div class=""></div>
+
+
+                    </div>
 
                 </div>
 
@@ -187,16 +203,12 @@
                         <div class="slider__inner-image">
                             <img src="images/slider/BG copy 7.png" alt="">
                             <div class="slider__inner-img-info">
-                                <a class="slider-inner-info" href="#">More info</a>
+                                <a class="slider-inner-info1" href="#">More info</a>
                                 <a class="slider-inner-demo" href="#">Live Demo</a>
                             </div>
 
 
                         </div>
-
-
-
-
                         <div class="slider__inner-info">
                             <div class="slider__inner-title">One Page Resume Template</div>
                             <div class="slider__inner-box">
@@ -221,17 +233,141 @@
                                 <a href="#">landing page</a>
                             </div>
                             <div class="slider__inner-buttom">
+
                                 <a class="slider__inner-price">$10-$50</a>
-                                <a class="slider__inner-liked">
-                                    <img class="slider__inner-icon"src="images/slider/icons/heart.png" alt="">
+                                <a class="slider__inner-liked slider__inner-icons">
+                                    <img class="slider__inner-icon" src="images/slider/icons/heart.png" alt="">
                                     46
                                 </a>
                                 <a class="slider__inner-bought slider__inner-icons">
-                                    <img class="slider__inner-icon"src="images/slider/icons/cart.png" alt="">
+                                    <img class="slider__inner-icon" src="images/slider/icons/cart.png" alt="">
                                     634
                                 </a>
 
-                                
+                                <div class="slider__inner-star">
+                                    <div class="rate-star"></div>
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="slider__inner-item">
+
+                        <div class="slider__inner-image">
+                            <img src="images/slider/BG copy 7.png" alt="">
+                            <div class="slider__inner-img-info">
+                                <a class="slider-inner-info1" href="#">More info</a>
+                                <a class="slider-inner-demo" href="#">Live Demo</a>
+                            </div>
+
+
+                        </div>
+                        <div class="slider__inner-info">
+                            <div class="slider__inner-title">One Page Resume Template</div>
+                            <div class="slider__inner-box">
+
+                                <a href="#" class="slider__inner-box-ref">
+                                    <img class="slider__inner-icon1" src="images/slider/icons/Ellipse.png" alt="">
+                                    <div class="slider__inner-name">AazzTech</div>
+                                </a>
+                                <a href="#" class="slider__inner-box-ref">
+                                    <img class="slider__inner-icon2" src="images/slider/icons/Wordpress.png" alt="">
+                                    <div class="slider__inner-name">WordPress</div>
+                                </a>
+                            </div>
+                            <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                                mattis,
+                                leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.</p>
+
+                            <div class="slider__inner-option">
+                                <a href="#">website</a>
+                                <a href="#">plugin</a>
+                                <a href="#">landing page</a>
+                            </div>
+                            <div class="slider__inner-buttom">
+
+                                <a class="slider__inner-price">$10-$50</a>
+                                <a class="slider__inner-liked slider__inner-icons">
+                                    <img class="slider__inner-icon" src="images/slider/icons/heart.png" alt="">
+                                    46
+                                </a>
+                                <a class="slider__inner-bought slider__inner-icons">
+                                    <img class="slider__inner-icon" src="images/slider/icons/cart.png" alt="">
+                                    634
+                                </a>
+
+                                <div class="slider__inner-star">
+                                    <div class="rate-star"></div>
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="slider__inner-item">
+
+                        <div class="slider__inner-image">
+                            <img src="images/slider/BG copy 7.png" alt="">
+                            <div class="slider__inner-img-info">
+                                <a class="slider-inner-info1" href="#">More info</a>
+                                <a class="slider-inner-demo" href="#">Live Demo</a>
+                            </div>
+
+
+                        </div>
+                        <div class="slider__inner-info">
+                            <div class="slider__inner-title">One Page Resume Template</div>
+                            <div class="slider__inner-box">
+
+                                <a href="#" class="slider__inner-box-ref">
+                                    <img class="slider__inner-icon1" src="images/slider/icons/Ellipse.png" alt="">
+                                    <div class="slider__inner-name">AazzTech</div>
+                                </a>
+                                <a href="#" class="slider__inner-box-ref">
+                                    <img class="slider__inner-icon2" src="images/slider/icons/Wordpress.png" alt="">
+                                    <div class="slider__inner-name">WordPress</div>
+                                </a>
+                            </div>
+                            <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                                mattis,
+                                leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.</p>
+
+                            <div class="slider__inner-option">
+                                <a href="#">website</a>
+                                <a href="#">plugin</a>
+                                <a href="#">landing page</a>
+                            </div>
+                            <div class="slider__inner-buttom">
+
+                                <a class="slider__inner-price">$10-$50</a>
+                                <a class="slider__inner-liked slider__inner-icons">
+                                    <img class="slider__inner-icon" src="images/slider/icons/heart.png" alt="">
+                                    46
+                                </a>
+                                <a class="slider__inner-bought slider__inner-icons">
+                                    <img class="slider__inner-icon" src="images/slider/icons/cart.png" alt="">
+                                    634
+                                </a>
+
+                                <div class="slider__inner-star">
+                                    <div class="rate-star"></div>
+
+
+                                </div>
+
 
                             </div>
                         </div>
@@ -240,12 +376,313 @@
 
                 </div>
 
-
-
             </div>
 
         </div>
     </div>
+
+    <section class="release">
+        <div class="container">
+
+            <div class="release__box">
+                <div class="release__box-title">Newest Release Products</div>
+                <div class="release__box-filter">Filter by:</div>
+            </div>
+
+            <div class="release__sorting">
+                <button>Plugins</button>
+                <button>WordPress</button>
+                <button>Site Template</button>
+                <button>PSD Template</button>
+                <button>Joomla</button>
+                <button>User Interface</button>
+                <button>Landing Page</button>
+                <button>Software</button>
+            </div>
+
+            <div class="release__inner-items">
+
+                <div class="release__item">
+
+                    <div class="release__head">
+                        <img src="images/slider/BG copy 7.png" alt="" class="release__img">
+                        <div class="release__hover">
+                            <a href="#" class="release__btn">More info</a>
+                            <a href="#" class="release__btn">Live Demo</a>
+                        </div>
+                    </div>
+
+
+                    <div class="release__content">
+                        <div class="release__title">E-commerce Shopping Cart</div>
+
+                        <div class="release__info">
+                            <div class="release__account">
+                                <a class="release__account-icon"
+                                    style="background-image: url(images/slider/icons/ellipse.png);" alt=""></a>
+                                <span class="release__account-name">Theme-Valley</span>
+                            </div>
+                            <div class="release__product">
+                                <a class="release__product-icon"
+                                    style="background-image: url(images/slider/icons/Wordpress.png);" alt=""></a>
+                                <span class="release__product-name">Plugin</span>
+                            </div>
+                        </div>
+
+                        <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.</p>
+
+                        <div class="release__buttom">
+                            <a class="release__price" href="#">$20</a>
+                            <a class="release__icons release__icons-heart">
+                                <span style="background-image: url(images/slider/icons/heart.png);"></span>
+                                90
+                            </a>
+                            <a class="release__icons release__icons-cart">
+                                <span style="background-image: url(images/slider/icons/cart.png);"></span>
+                                246
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="release__item">
+
+                    <div class="release__head">
+                        <img src="images/slider/BG copy 7.png" alt="" class="release__img">
+                        <div class="release__hover">
+                            <a href="#" class="release__btn">More info</a>
+                            <a href="#" class="release__btn">Live Demo</a>
+                        </div>
+                    </div>
+
+
+                    <div class="release__content">
+                        <div class="release__title">E-commerce Shopping Cart</div>
+
+                        <div class="release__info">
+                            <div class="release__account">
+                                <a class="release__account-icon"
+                                    style="background-image: url(images/slider/icons/ellipse.png);" alt=""></a>
+                                <span class="release__account-name">Theme-Valley</span>
+                            </div>
+                            <div class="release__product">
+                                <a class="release__product-icon"
+                                    style="background-image: url(images/slider/icons/Wordpress.png);" alt=""></a>
+                                <span class="release__product-name">Plugin</span>
+                            </div>
+                        </div>
+
+                        <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.</p>
+
+                        <div class="release__buttom">
+                            <a class="release__price" href="#">$20</a>
+                            <a class="release__icons release__icons-heart">
+                                <span style="background-image: url(images/slider/icons/heart.png);"></span>
+                                90
+                            </a>
+                            <a class="release__icons release__icons-cart">
+                                <span style="background-image: url(images/slider/icons/cart.png);"></span>
+                                246
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="release__item">
+
+                    <div class="release__head">
+                        <img src="images/slider/BG copy 7.png" alt="" class="release__img">
+                        <div class="release__hover">
+                            <a href="#" class="release__btn">More info</a>
+                            <a href="#" class="release__btn">Live Demo</a>
+                        </div>
+                    </div>
+
+
+                    <div class="release__content">
+                        <div class="release__title">E-commerce Shopping Cart</div>
+
+                        <div class="release__info">
+                            <div class="release__account">
+                                <a class="release__account-icon"
+                                    style="background-image: url(images/slider/icons/ellipse.png);" alt=""></a>
+                                <span class="release__account-name">Theme-Valley</span>
+                            </div>
+                            <div class="release__product">
+                                <a class="release__product-icon"
+                                    style="background-image: url(images/slider/icons/Wordpress.png);" alt=""></a>
+                                <span class="release__product-name">Plugin</span>
+                            </div>
+                        </div>
+
+                        <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.</p>
+
+                        <div class="release__buttom">
+                            <a class="release__price" href="#">$20</a>
+                            <a class="release__icons release__icons-heart">
+                                <span style="background-image: url(images/slider/icons/heart.png);"></span>
+                                90
+                            </a>
+                            <a class="release__icons release__icons-cart">
+                                <span style="background-image: url(images/slider/icons/cart.png);"></span>
+                                246
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="release__item">
+
+                    <div class="release__head">
+                        <img src="images/slider/BG copy 7.png" alt="" class="release__img">
+                        <div class="release__hover">
+                            <a href="#" class="release__btn">More info</a>
+                            <a href="#" class="release__btn">Live Demo</a>
+                        </div>
+                    </div>
+
+
+                    <div class="release__content">
+                        <div class="release__title">E-commerce Shopping Cart</div>
+
+                        <div class="release__info">
+                            <div class="release__account">
+                                <a class="release__account-icon"
+                                    style="background-image: url(images/slider/icons/ellipse.png);" alt=""></a>
+                                <span class="release__account-name">Theme-Valley</span>
+                            </div>
+                            <div class="release__product">
+                                <a class="release__product-icon"
+                                    style="background-image: url(images/slider/icons/Wordpress.png);" alt=""></a>
+                                <span class="release__product-name">Plugin</span>
+                            </div>
+                        </div>
+
+                        <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.</p>
+
+                        <div class="release__buttom">
+                            <a class="release__price" href="#">$20</a>
+                            <a class="release__icons release__icons-heart">
+                                <span style="background-image: url(images/slider/icons/heart.png);"></span>
+                                90
+                            </a>
+                            <a class="release__icons release__icons-cart">
+                                <span style="background-image: url(images/slider/icons/cart.png);"></span>
+                                246
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="release__item">
+
+                    <div class="release__head">
+                        <img src="images/slider/BG copy 7.png" alt="" class="release__img">
+                        <div class="release__hover">
+                            <a href="#" class="release__btn">More info</a>
+                            <a href="#" class="release__btn">Live Demo</a>
+                        </div>
+                    </div>
+
+
+                    <div class="release__content">
+                        <div class="release__title">E-commerce Shopping Cart</div>
+
+                        <div class="release__info">
+                            <div class="release__account">
+                                <a class="release__account-icon"
+                                    style="background-image: url(images/slider/icons/ellipse.png);" alt=""></a>
+                                <span class="release__account-name">Theme-Valley</span>
+                            </div>
+                            <div class="release__product">
+                                <a class="release__product-icon"
+                                    style="background-image: url(images/slider/icons/Wordpress.png);" alt=""></a>
+                                <span class="release__product-name">Plugin</span>
+                            </div>
+                        </div>
+
+                        <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.</p>
+
+                        <div class="release__buttom">
+                            <a class="release__price" href="#">$20</a>
+                            <a class="release__icons release__icons-heart">
+                                <span style="background-image: url(images/slider/icons/heart.png);"></span>
+                                90
+                            </a>
+                            <a class="release__icons release__icons-cart">
+                                <span style="background-image: url(images/slider/icons/cart.png);"></span>
+                                246
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="release__item">
+
+                    <div class="release__head">
+                        <img src="images/slider/BG copy 7.png" alt="" class="release__img">
+                        <div class="release__hover">
+                            <a href="#" class="release__btn">More info</a>
+                            <a href="#" class="release__btn">Live Demo</a>
+                        </div>
+                    </div>
+
+
+                    <div class="release__content">
+                        <div class="release__title">E-commerce Shopping Cart</div>
+
+                        <div class="release__info">
+                            <div class="release__account">
+                                <a class="release__account-icon"
+                                    style="background-image: url(images/slider/icons/ellipse.png);" alt=""></a>
+                                <span class="release__account-name">Theme-Valley</span>
+                            </div>
+                            <div class="release__product">
+                                <a class="release__product-icon"
+                                    style="background-image: url(images/slider/icons/Wordpress.png);" alt=""></a>
+                                <span class="release__product-name">Plugin</span>
+                            </div>
+                        </div>
+
+                        <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                            the mattis, leo quam aliquet congue.</p>
+
+                        <div class="release__buttom">
+                            <a class="release__price" href="#">$20</a>
+                            <a class="release__icons release__icons-heart">
+                                <span style="background-image: url(images/slider/icons/heart.png);"></span>
+                                90
+                            </a>
+                            <a class="release__icons release__icons-cart">
+                                <span style="background-image: url(images/slider/icons/cart.png);"></span>
+                                246
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="release__button">All New Products</div>
+            </div>
+        </div>
+
+
+    </section>
 
 </body>
 
@@ -258,6 +695,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/libs.min.js"></script>
+
 <script src="js/main.js"></script>
 
 </body>
