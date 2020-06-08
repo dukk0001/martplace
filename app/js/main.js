@@ -15,25 +15,15 @@ $(function(){
 
     
  $('.slider__inner-display').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: false,
-    asNavFor: '.slider__inner-arrows'
+  prevArrow: '<button type="button" class="slick-arrow slick-arrow--prev"><span class="lnr lnr-chevron-left"></span></button>',
+  nextArrow: '<button type="button" class="slick-arrow slick-arrow--next"><span class="lnr lnr-chevron-right"></span></button>',
+  appendArrows: '.slider__inner-arrows'
   });
-  $('.slider__inner-arrows').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    asNavFor: '.slider__inner-display',
-    arrows: true,
-    dots:false,
-    centerMode: true,
-    focusOnSelect: true
-  });
+ 
 
 
 
  
 
-var mixer = mixitup ('.products__inner-box');
+var mixer = mixitup ('.release__inner-items');
 });
