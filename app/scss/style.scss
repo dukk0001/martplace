@@ -240,37 +240,35 @@
             margin: 0 auto;
             margin-bottom: 130px;
 
-            a {
-                border: solid white 1px;
-                border-radius: 26px;
-                box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
-                margin-right: 30px;
-            }
-
-            a:hover {
-                background-color: #fff;
-                border: none;
-            }
-        }
-
-
-        &-text:hover {
-            border: solid white 1px;
-            color: $blue;
-            border: none;
+            a:hover {}
         }
 
         .btn {
-            border: solid white 1px;
-
             font-size: 16px;
             line-height: 1;
             text-align: center;
             vertical-align: center;
             color: white;
             padding: 19.5px 33px;
+            border: solid white 1px;
+            border-radius: 26px;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+            margin-right: 30px;
+
+
         }
 
+        .btn:hover {
+            background-color: #fff;
+            border: solid white 1px;
+            color: $blue;
+        }
+
+        &-text:hover {
+            border: solid white 1px;
+            color: $blue;
+            border: none;
+        }
 
         .search-form {
             width: 100%;
@@ -319,7 +317,6 @@
                 display: flex;
                 flex: 1 0 auto;
                 margin-right: 30px;
-
             }
 
             &-input {
@@ -356,7 +353,6 @@
     font-size: 16px;
     color: #676767;
     height: 100%;
-    /* your styles here */
 }
 
 
@@ -367,7 +363,6 @@
     font-size: 16px;
     color: #676767;
     height: 100%;
-    /* your styles here */
 }
 
 .justselect-list li:first-child {
@@ -377,7 +372,6 @@
 .justselect-list li:hover {
     color: $blue;
 }
-
 
 .features {
     &-text {
@@ -483,9 +477,6 @@
             left: 50%;
             transform: translate(-50%, 50%);
             width: 275px;
-
-
-
 
             a {
                 width: 130px;
@@ -696,7 +687,7 @@
         box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.12);
         overflow: hidden;
         margin-bottom: 30px;
-        }
+    }
 
     &__head {
         position: relative;
@@ -836,7 +827,7 @@
         span {
             background-repeat: no-repeat;
             background-size: cover;
-            width: 16px;
+            width: 19px;
             height: 16px;
             display: inline-block;
             position: absolute;
