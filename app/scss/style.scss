@@ -240,7 +240,6 @@
             margin: 0 auto;
             margin-bottom: 130px;
 
-
             a {
                 border: solid white 1px;
                 border-radius: 26px;
@@ -262,6 +261,8 @@
         }
 
         .btn {
+            border: solid white 1px;
+
             font-size: 16px;
             line-height: 1;
             text-align: center;
@@ -695,10 +696,7 @@
         box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.12);
         overflow: hidden;
         margin-bottom: 30px;
-
-
-
-    }
+        }
 
     &__head {
         position: relative;
@@ -738,7 +736,6 @@
         width: 130px;
         text-align: center;
         padding: 15.5px;
-
         border-radius: 30px;
         border: 1px solid #fff;
         color: #fff;
@@ -753,8 +750,6 @@
             background-color: #fff;
             color: $light-blue;
         }
-
-
     }
 
     &__content {
