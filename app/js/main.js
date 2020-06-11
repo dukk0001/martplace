@@ -21,7 +21,16 @@ $(function(){
   });
  
 
-
+    
+  $('.slider__inner-display-followers').slick({
+    prevArrow: '<button type="button" class="slick-arrow slick-arrow--prev"><span class="lnr lnr-chevron-left"></span></button>',
+    nextArrow: '<button type="button" class="slick-arrow slick-arrow--next"><span class="lnr lnr-chevron-right"></span></button>',
+    appendArrows: '.slider__inner-arrows-followers',
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1
+    });
+   
 
  
 
