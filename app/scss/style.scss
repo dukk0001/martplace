@@ -240,7 +240,7 @@
             margin: 0 auto;
             margin-bottom: 130px;
 
-            a:hover {}
+
         }
 
         .btn {
@@ -254,6 +254,7 @@
             border-radius: 26px;
             box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
             margin-right: 30px;
+            transition-duration: 0.5s;
 
 
         }
@@ -479,6 +480,7 @@
             transform: translate(-50%, 50%);
             width: 275px;
 
+
             a {
                 width: 130px;
                 border: none;
@@ -491,6 +493,8 @@
                 color: white;
                 font-size: 15px;
                 text-align: center;
+                transition-duration: 0.3s;
+
             }
 
             a+a {
@@ -675,6 +679,8 @@
             border-radius: 25px;
             border: none;
             margin-right: 8px;
+            transition-duration: 0.5s;
+
         }
 
         button:hover {
@@ -985,6 +991,7 @@
             font-size: 36px;
             line-height: 28px;
             margin-bottom: 37px;
+            font-weight: regular;
 
             span {
                 color: $light-blue;
@@ -994,7 +1001,6 @@
 
         &-description {
             display: inline-block;
-
             max-width: 670px;
             font-size: 16px;
             color: #555555;
@@ -1108,9 +1114,6 @@
 
             }
 
-
-
-
             &-wrapper {
                 margin: 100px auto;
             }
@@ -1131,3 +1134,146 @@
         background-position: center 0;
     }
 }
+
+.feedback {
+
+
+    &__inner {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        text-align: center;
+        align-items: center;
+
+
+        &-title {
+
+            @extend .advantages__inner-title;
+
+        }
+
+        &-description {
+            @extend .advantages__inner-description;
+            font-size: 16px;
+
+        }
+
+        &-box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            position: relative;
+            button{
+                position: absolute;
+                background-color: #fff;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+
+            }
+        }
+       
+
+        .slick-arrow--next {
+            background-repeat: no-repeat;
+           
+            right: -40px;
+            top: 50%;
+            z-index: 15;           
+            background-image: url(../images/feedback/chevron-right.png);
+            width: 20px;
+            height: 20px;
+
+
+        }
+
+        .slick-arrow--prev {
+            background-image: url();
+            left: -40px;
+            top: 50%;
+            z-index: 16;
+          
+
+
+        }
+
+        &-button {
+            @extend .release__button;
+            margin: 0;
+        }
+        &-button:hover{
+            background-color:#fff;
+            .feedback__inner-box{
+                .slick-initialized{
+                    display: none;
+                }
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+        }
+
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        overflow: hidden;
+        position: relative;
+
+
+
+        &-info {
+            margin-left: 20px;
+        }
+
+        &-box {
+            border-left: 3px solid $light-blue;
+            padding: 50px 40px;
+            max-width: 555px;
+            height: 313px;
+            box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+
+
+
+        }
+
+        &-photo {
+            background-color: #808080;
+            width: 82px;
+            height: 82px;
+            border-radius: 50px;
+        }
+
+        &-name {
+            font-size: 20px;
+            margin-bottom: 15px;
+            font-weight: 500;
+
+        }
+
+        &-occupation {
+            font-size: 16px;
+        }
+
+        &-msg {
+            position: absolute;
+            right: 0;
+            top: 6px;
+            width: 57px;
+            height: 51px;
+        }
+
+        &-feedback {
+            padding: 0;
+            line-height: 25px;
+            font-size: 16px;
+            text-align: justify;
+        }
+    }
+
+
+}
+  
