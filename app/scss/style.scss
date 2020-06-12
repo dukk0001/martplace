@@ -977,7 +977,7 @@
     &__inner {
         text-align: center;
         align-items: center;
-        
+
 
 
 
@@ -985,18 +985,19 @@
             font-size: 36px;
             line-height: 28px;
             margin-bottom: 37px;
-            span{
+
+            span {
                 color: $light-blue;
             }
 
         }
 
         &-description {
-            display:inline-block;
+            display: inline-block;
 
             max-width: 670px;
             font-size: 16px;
-            color:#555555;
+            color: #555555;
             margin-bottom: 65px;
         }
 
@@ -1039,7 +1040,7 @@
                 font-size: 24px;
                 margin-bottom: 35px;
                 font-weight: 500;
-                color:black;
+                color: black;
             }
 
             &-description {
@@ -1047,7 +1048,86 @@
             }
         }
 
+    }
+}
+
+.choice {
+    &__inner {
+        display: flex;
+
+        &-box {
+            min-width: 50%;
+            color: #fff;
+            text-align: center;
+
+            .box-title {
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 30px;
+                margin-bottom: 35px;
+                margin-top: 53px;
+            }
+
+            .box-description {
+                margin: 0 auto;
+                max-width: 580px;
+                font-size: 16px;
+                margin-bottom: 53px;
+            }
+
+            button {
+                min-width: 190px;
+                padding: 25px 30px;
+                border-radius: 35px;
+                font-size: 16px;
+                line-height: 1;
+                border: none;
+                background-color: white;
 
 
+            }
+
+            .box__left-button {
+                color: $light-blue;
+            }
+
+            .box__left-button:hover {
+                background-color: #2785ea;
+                color: white;
+
+            }
+
+            .box__right-button {
+                color: #7347c1;
+
+            }
+
+            .box__right-button:hover {
+                background-color: #8653e0;
+                color: white;
+
+            }
+
+
+
+
+            &-wrapper {
+                margin: 100px auto;
+            }
+        }
+    }
+
+    .choice__sell {
+        background-image: url(../images/choice/BG-left.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 0;
+    }
+
+    .choice__shopping {
+        background-image: url(../images/choice/BG-right.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 0;
     }
 }
