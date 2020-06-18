@@ -1,5 +1,6 @@
 @import '_vars';
 @import '_global';
+@import '_fonts';
 
 
 //start header
@@ -1309,7 +1310,7 @@
             color: #999999;
             height: 60px;
             padding: 10px 30px;
-            
+
 
         }
 
@@ -1358,11 +1359,12 @@
                 background-repeat: no-repeat;
                 margin-right: 8px;
             }
-            span+span{
+
+            span+span {
                 margin-left: 30px;
             }
         }
-        
+
 
 
     }
@@ -1371,20 +1373,21 @@
     &__time {
         width: 16px;
         height: 15px;
-      
+
 
     }
-    &-clock{
-         padding-right: 50px;
-            border-right: solid 1px #ececec;
+
+    &-clock {
+        padding-right: 50px;
+        border-right: solid 1px #ececec;
     }
 
     &__message {
         width: 16px;
         height: 14px;
     }
-   
-    
+
+
 
     &__eye {
         width: 17px;
@@ -1393,14 +1396,15 @@
 
 
 }
-.footer{
+
+.footer {
     background-color: #262b30;
     padding-top: 135px;
     padding-bottom: 120px;
     margin-bottom: 35px;
 
 
-    &__inner{
+    &__inner {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -1408,42 +1412,124 @@
 
 
     }
-    &__item{
-        color: #ababab ;
 
-        a,div{
-            color: #ababab ;
+    &__item {
+        color: #ababab;
+
+        a,
+        div {
+            color: #ababab;
 
         }
-        p{
+
+        p {
             margin-bottom: 33px;
         }
 
-      &-phone{
 
-      }
- 
+        &-phone {
+            transition: 0.2s ease-in-out;
+            margin-bottom: 10px;
+            position: relative;
+            left: 30px;
+            &::before {
+                position: absolute;
+                content: '\e901';
+                font-family: 'icomoon';
+                left:-30px;
+                top:1px;               
 
+            }
 
-        &-title-img{
+            &:hover {
+                color: yellow;
+
+                &::before {
+                    content: '\e901';
+                    font-family: 'icomoon';
+                    color: yellow;
+                    margin-right: 12px;
+
+                }
+            }
+         
+        }
+
+        &-email {
+            margin-bottom: 10px;
+            position: relative;
+            transition: 0.2s ease-in-out;
+            left: 30px;
+            &::before {
+                position: absolute;
+                content: '\e902';
+                font-family: 'icomoon';
+                left:-30px;
+                top:1px;               
+
+            }
+
+            &:hover {
+                color: yellow;
+
+                &::before {
+                    content: '\e902';
+                    font-family: 'icomoon';
+                    color: yellow;
+                    margin-right: 12px;
+
+                }
+            }
+
+        }
+
+        &-adress {
+            transition: 0.2s ease-in-out;
+
+            position: relative;
+            left: 30px;
+            &::before {
+                position: absolute;
+                content: '\e900';
+                font-family: 'icomoon';
+                left:-30px;
+                top:1px;               
+
+            }
+
+            &:hover {
+                color: yellow;
+
+                &::before {
+                    content: '\e900';
+                    font-family: 'icomoon';
+                    color: yellow;
+                    margin-right: 12px;
+
+                }
+            }
+        }
+
+        &-title-img {
             height: 40px;
             background-repeat: no-repeat;
             margin-bottom: 30px;
         }
-        &-logo{
+
+        &-logo {
             width: 260px;
             height: 70px;
-            
+
         }
 
-        &-title{
+        &-title {
             padding-bottom: 20px;
             font-size: 18px;
             font-weight: 500;
-            color: white !important;
+            color: white;
             position: relative;
 
-            &::before{
+            &::before {
                 content: '';
                 position: absolute;
                 bottom: 0;
@@ -1451,21 +1537,20 @@
                 opacity: .5;
                 width: 51px;
                 height: 2px;
-                left:3px;
+                left: 3px;
                 background-color: yellow;
-              
-
             }
-            &:hover{
-                &::before{
-                    content: '';                   
-                    opacity: 1;    
+
+            &:hover {
+                &::before {
+                    content: '';
+                    opacity: 1;
                 }
             }
 
         }
-        
-        &-icons{
+
+        &-icons {
             width: 360px;
         }
     }
