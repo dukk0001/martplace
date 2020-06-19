@@ -42,12 +42,9 @@ $('.feedback__inner-box').slick({
 
 
 
-} 
+} );
 
-);
-   
 
- 
 
 var mixer = mixitup ('.release__inner-items');
 });
